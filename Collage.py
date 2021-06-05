@@ -13,12 +13,12 @@ collage1 = numpy.hstack((linux,arth))
 collage2 = numpy.hstack((summer,jazbba))
 
 #showing collage1
-cv2.imshow("img",collage1)
+cv2.imshow("Collage1",collage1)
 cv2.waitKey()
 cv2.destroyAllWindows()
 
 #showing collage2
-cv2.imshow("img",collage2)
+cv2.imshow("Collage2",collage2)
 cv2.waitKey()
 cv2.destroyAllWindows()
 
@@ -26,6 +26,6 @@ cv2.destroyAllWindows()
 collage = numpy.concatenate((collage1,collage2),axis=0)
 
 #showing final collage
-cv2.imshow("img",collage)
+cv2.imshow("Final_Collage",collage)
 cv2.waitKey()
 cv2.destroyAllWindows()
