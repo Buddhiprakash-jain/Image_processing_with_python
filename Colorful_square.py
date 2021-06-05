@@ -23,6 +23,6 @@ newimg[:234,261:500]=[0,128,255]
 newimg[261:,:235]=[0,0,0]
 
 #Image Showing
-cv2.imshow("img",newimg)
+cv2.imshow("Colorful_square",newimg)
 cv2.waitKey()
 cv2.destroyAllWindows()
